@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contct Us</title>
+    <style>
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      li {
+        display: inline;
+        padding: 5px;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .contact-form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      .contact-form button {
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="assets/logo.png" alt="logo" width="80px" />
+        <h1>Adventours</h1>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/tours.html">Tours</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+          <li><a href="/contactus.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>Contact us for inquiries</h1>
+      <div class="contact-form">
+        <form>
+          <input type="text" name="name" placeholder="Your Name" />
+          <input type="email" name="email" placeholder="Your Email" />
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
